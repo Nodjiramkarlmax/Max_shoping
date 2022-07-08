@@ -1,0 +1,32 @@
+2022-07-06T09:04:26+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 32768 bytes) dans C:\xampp\htdocs\Max_shoping\wp-content\plugins\woocommerce\src\Admin\API\Reports\Customers\Stats\Controller.php à la ligne 1
+
+2022-07-06T09:04:26+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 32768 bytes) dans C:\xampp\htdocs\Max_shoping\wp-content\plugins\woocommerce\src\Admin\API\Reports\Customers\Stats\Controller.php à la ligne 1
+
+2022-07-06T09:07:34+00:00 CRITICAL Out of memory (allocated 69206016) (tried to allocate 32768 bytes) dans C:\xampp\htdocs\Max_shoping\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-report-products-totals-controller.php à la ligne 1
+
+2022-07-06T09:48:39+00:00 CRITICAL Out of memory (allocated 56623104) (tried to allocate 585728 bytes) in C:\xampp\htdocs\Max_shoping\wp-includes\pomo\streams.php on line 220
+
+2022-07-06T11:05:58+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "breadcrumb_setting" not found or invalid function name in C:\xampp\htdocs\Max_shoping\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\Max_shoping\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\Max_shoping\wp-includes\class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\Max_shoping\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Max_shoping\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Max_shoping\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\Max_shoping\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Max_shoping\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown dans C:\xampp\htdocs\Max_shoping\wp-includes\customize\class-wp-customize-partial.php à la ligne 221
+
+2022-07-06T11:06:10+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "breadcrumb_setting" not found or invalid function name in C:\xampp\htdocs\Max_shoping\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\Max_shoping\wp-includes\customize\class-wp-customize-selective-refresh.php(368): WP_Customize_Partial->render(NULL)
+#1 C:\xampp\htdocs\Max_shoping\wp-includes\class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\Max_shoping\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Max_shoping\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Max_shoping\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\Max_shoping\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Max_shoping\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown dans C:\xampp\htdocs\Max_shoping\wp-includes\customize\class-wp-customize-partial.php à la ligne 221
+
